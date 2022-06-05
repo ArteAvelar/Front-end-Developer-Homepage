@@ -9,7 +9,6 @@ nav {
 h1,
 h2,
 h3 {
-  text-align: center;
   margin: 0;
 }
 
@@ -90,4 +89,23 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+}
+
+@media (max-width: 768px) {
+  h3 {
+    font-size: 48px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  .app-title {
+    text-align: center;
+  }
+
+  .email-link {
+    font-size: 20px;
+  }
 }
